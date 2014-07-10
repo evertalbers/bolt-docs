@@ -412,7 +412,7 @@ Variable: app
 -------------
 
 <pre class="brush: html">
-{{ app.config.general.sitename }}
+{{ app.config.get('general/sitename') }}
 </pre>
 
 
