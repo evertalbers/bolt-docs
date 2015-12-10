@@ -35,6 +35,10 @@ tar -xzf bolt_latest.tgz
 chmod -R 777 files/ app/database/ app/cache/ app/config/ theme/
 </pre>
 
+<p class="note"><strong>Note:</strong> If you have made edits to your .htaccess
+file, make a backup of this file on your own computer (e.g. renamed
+clientname_v01.htaccess so it becomes visible) or make sure that it does not
+get overwritten by changing the permissions.</p>
 
 ### Option 2: The traditional way, using (S)FTP.
 
