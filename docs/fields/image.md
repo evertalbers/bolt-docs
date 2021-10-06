@@ -37,7 +37,6 @@ or
 {{ record.cover|popup() }}
 ```
 
-See [Bolt Template tags](../templating/twig-functionality) for more info.
 
 ## Options:
 
