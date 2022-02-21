@@ -107,6 +107,10 @@ After it runs, you will see a message similar to this:
 Open up a browser and go to `http://127.0.0.1:8000` to view your new
 Bolt project. To access the Bolt Editor, go to `http://127.0.0.1:8000/bolt`.
 
+<p class="note"><strong>Note:</strong> `bin/console server:start` may give an error 
+ when `APP_ENV` is set to `prod` in your `.env` file. Make sure to use `APP_ENV=dev` 
+ in your local environment.</p>
+
 Starting a webserver (additional tips)
 --------------------
 
