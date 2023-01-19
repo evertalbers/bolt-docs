@@ -398,6 +398,12 @@ APP_DEBUG=1
 APP_SECRET=fbeba65dd5d06e6c55e79d69d6e8fe8c
 ```
 
+The connection to your mail server can also be set in the Environment. It is recommended to avoid sendmail and use a safer protocol like e.g. smtp.
+```bash
+MAILER_DSN=smtp://mylogin:mypassword@smtp.myserver.org:587
+```
+For more examples see the [Symfony documentation](https://symfony.com/doc/current/mailer.html).
+
 [curl]: https://curl.haxx.se/libcurl/c/curl_easy_setopt.html
 [date]: https://www.php.net/manual/en/function.date.php
 [timezones]: http://php.net/manual/en/timezones.php
